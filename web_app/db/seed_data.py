@@ -195,6 +195,7 @@ if __name__ == "__main__":
         positions = create_positions(session, users)
         # create_airdrops(session, users)
         # create_telegram_users(session, users)
+        create_extra_deposits(session, positions)
         create_vaults(session, users)
         create_transaction(session, positions)
 
